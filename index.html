@@ -14,10 +14,9 @@
             Coffee House
         </h1>
     </nav>
+
    <div class="page">
-       <section class="order-box">
-           <div class="order">
-            
+       <section class="order">
                 <table class="items">
                     <h2 class="box-item">ITEMS</h2>
 
@@ -30,8 +29,11 @@
                     <tr class="item"> 
                        <td  class="quantity"></td>
                        <td class="title">Light Foam</td>
+                       <td class="price"></td>
                     </tr>
+                </table>
 
+                <table class="items">
                     <tr class="item">
                         <td class="quantity">1x</td>
                         <td class="title">Cappucino</td>
@@ -39,39 +41,43 @@
                     </tr>
                 
                     <tr class="item">
-                        <td  class="quantity"></td>
-                       <td class="title">Almond Milk</td>
+                        <td class="quantity"></td>
+                        <td class="title">Almond Milk</td>
+                        <td class="price"></td>
                     </tr>
 
-                    <tr>
+                    <tr class="item">
                         <td class="quantity"></td>
                         <td class="title">Double Espresso Shot</td>
+                        <td class="price"></td>
                     </tr>
+                </table>
 
+                <table class="items">
                     <tr class="item">
                        <td class="quantity">1x</td>
                        <td class="title">Crissant</td>
                        <td class="price">$5.37</td>
                     </tr>
 
-                    <tr>
+                    <tr class="item">
                         <td class="quantity"></td>
-                       <td class="title">Butter</td>
+                        <td class="title">Butter</td>
+                        <td class="price"></td>
                     </tr>
                 </table>
-            
-            </div>
         </section>
 
-        <section class="payment">
-           <h2 class="box-item">NAME</h2>
-           <div class="input-group">
-              <label for="Name" class="user-input-label">Name for order</label>
-              <input class="user-input" type="text">
-           </div>
-    
+        <section classs="payment">
+            <div class="uni">
+              <h2 class="box-item">NAME</h2>
+              <div class="input-group">
+                  <label for="Name" class="user-input-label">Name for order</label>
+                  <input class="user-input" type="text">
+               </div>
+            </div>
 
-           <div class="payment">
+           <div class="uni2">
                <h2 class="box-item">PAYMENT</h2>
                <div class="input-group">
                     <label for="payment" class="user-input-label">Card number</label>
@@ -84,6 +90,29 @@
                 </div>
            </div>
         </section> 
+    </div>
+
+    <div>
+        <section >
+            <table class="total">
+                <tr class="hi">
+                    <td>Subtotal:</td>
+                    <td>$9.65</td>
+                </tr>
+
+                <tr class="hi">
+                    <td>Tax:</td>
+                    <td>$0.82</td>
+                </tr>
+
+                <tr class="hi">
+                    <td>Total:</td>
+                    <td>$10.47</td>
+                </tr>
+
+            </table>
+        </section>
+        <button id="button">Order now</button>
     </div>
    
        
